@@ -11,10 +11,10 @@
     >
       <ol class="breadcrumb justify-content-center">
         <li class="breadcrumb-item">
-          <a class="text-decoration-none" href="{{route('home')}}">Home</a>
+          <a class="text-decoration-none" href="{{route('home.index')}}">Home</a>
         </li>
         <li class="breadcrumb-item">
-          <a class="text-decoration-none" href="{{route('doctors')}}">doctors</a>
+          <a class="text-decoration-none" href="{{route('doctors.index')}}">doctors</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           doctor name

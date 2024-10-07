@@ -6,7 +6,7 @@
 <div class="container">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="fw-bold my-4 h4">
         <ol class="breadcrumb justify-content-center">
-            <li class="breadcrumb-item"><a class="text-decoration-none" href="{{route('home')}}">Home</a></li>
+            <li class="breadcrumb-item"><a class="text-decoration-none" href="{{route('home.index')}}">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">doctors</li>
         </ol>
     </nav>
@@ -17,7 +17,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="{{route('book_doctor')}}" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="{{route('doctors.doctor')}}"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -37,7 +37,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -57,7 +57,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -77,7 +77,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -97,7 +97,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -107,7 +107,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -117,7 +117,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>
@@ -127,7 +127,7 @@
             <div class="card-body d-flex flex-column gap-1 justify-content-center">
                 <h4 class="card-title fw-bold text-center">Doctor Name</h4>
                 <h6 class="card-title fw-bold text-center">Major</h6>
-                <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                <a href="./doctor.html"  class="btn btn-outline-primary card-button">Book an
                     appointment</a>
             </div>
         </div>

@@ -14,15 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('web.site.pages.home.home');
+    return view('web.site.pages.home.index');
 });
 
-Route::view('major', 'web.site.pages.major.major')->name('major');
-Route::view('home', 'web.site.pages.home.home')->name('home');
-Route::view('doctors', 'web.site.pages.doctors.index')->name('doctors');
-Route::view('book_doctor', 'web.site.pages.doctors.doctor')->name('book_doctor');
-Route::view('login', 'web.site.pages.login.login')->name('login');
-Route::view('register', 'web.site.pages.register.register')->name('register');
-Route::view('history', 'web.site.pages.history.history')->name('history');
-Route::view('contact', 'web.site.pages.contact.contact')->name('contact');
+Route::view('major', 'web.site.pages.major.index')->name('major.index');
+Route::view('home', 'web.site.pages.home.index')->name('home.index');
+Route::view('doctors', 'web.site.pages.doctors.index')->name('doctors.index');
+Route::view('book_doctor', 'web.site.pages.doctors.doctor')->name('doctors.doctor');
+Route::view('login', 'web.site.pages.login.index')->name('login.index');
+Route::view('register', 'web.site.pages.register.index')->name('register.index');
+Route::view('history', 'web.site.pages.history.index')->name('history.index');
+Route::view('contact', 'web.site.pages.contact.index')->name('contact.index');
 
